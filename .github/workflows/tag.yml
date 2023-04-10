@@ -11,3 +11,5 @@ jobs:
         uses: actions/checkout@v2
       - name: Auto Tagger
         uses: VegetableGarden/beet@0.0.3
+        with:
+          minor-version: 8
